@@ -1,0 +1,32 @@
+#video-streams{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 40vh;
+}
+
+.video-container{
+    height: 100%;
+    width: 40vw;
+    border: 2px solid black;
+}
+
+.video-player{
+    height: 100%;
+    width: 100%;
+}
+
+#stream-controls{
+    
+    padding-top: 50px;
+    display: none;
+    justify-content: center;
+}
+
+#stream-wrapper{
+    margin-top: 20%;
+}
+
+.ctrl-btn{
+    margin: 10px;
+}
